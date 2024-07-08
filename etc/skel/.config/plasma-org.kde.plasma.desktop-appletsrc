@@ -410,10 +410,6 @@ visibilityUnit=2024
 [Containments][132][Applets][199][Configuration][WeatherStation]
 source=wettercom|weather|Beirut, Beyrouth, LB|LB0BA0002;Beirut
 
-[Containments][132][Applets][223]
-immutability=1
-plugin=com.github.exequtic.apdatifier
-
 [Containments][132][Applets][223][Configuration]
 PreloadWeight=100
 
@@ -424,19 +420,6 @@ sortByRepo=true
 [Containments][132][Applets][223][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
-
-[Containments][132][Applets][223][Configuration][General]
-archNews=true
-aur=true
-checkOnStartup=true
-flatpak=true
-plasmoids=true
-wrapper=/usr/bin/paru
-
-[Containments][132][Applets][223][Configuration][Upgrade]
-refreshShell=true
-terminal=/usr/bin/konsole
-upgradeFlags=true
 
 [Containments][132][Applets][228]
 immutability=1
